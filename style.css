@@ -73,3 +73,40 @@ button{
 button:hover{
     background: white;
 }
+/* BENEFITS */
+
+.benefits{
+    padding: 100px 20px;
+    text-align: center;
+    background: #1a1a1a;
+}
+
+.benefits h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: #222;
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    background: #2c2c2c;
+}
+
+.card h3{
+    color: #00ff88;
+    margin-bottom: 15px;
+}
