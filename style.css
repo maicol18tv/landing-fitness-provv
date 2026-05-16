@@ -5,8 +5,42 @@ body{
     color: white;
 }
 
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #00ff88;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    color: #00ff88;
+}
+
+/* HERO */
+
 .hero{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,4 +68,8 @@ button{
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+button:hover{
+    background: white;
 }
