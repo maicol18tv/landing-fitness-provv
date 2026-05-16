@@ -152,3 +152,47 @@ button:hover{
 .testimonial-card h3{
     color: #00ff88;
 }
+/* PRICING */
+
+.pricing{
+    padding: 100px 20px;
+    text-align: center;
+    background: #1a1a1a;
+}
+
+.pricing h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.price-card{
+    background: #222;
+    padding: 40px 30px;
+    width: 300px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.price-card:hover{
+    transform: translateY(-10px);
+}
+
+.price-card h1{
+    color: #00ff88;
+    font-size: 50px;
+}
+
+.price-card p{
+    margin: 15px 0;
+}
+
+.premium{
+    border: 2px solid #00ff88;
+}
