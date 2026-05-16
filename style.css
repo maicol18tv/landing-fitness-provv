@@ -297,3 +297,52 @@ button:hover{
     }
 
 }
+/* ANIMACIONES */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero h1,
+.hero p,
+.hero button{
+    animation: fadeUp 1s ease;
+}
+
+.card,
+.testimonial-card,
+.price-card{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.card:hover,
+.testimonial-card:hover,
+.price-card:hover{
+    box-shadow: 0 10px 25px rgba(0,255,136,0.3);
+}
+
+/* BOTONES */
+
+button{
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+/* ANIMATION KEYFRAMES */
+
+@keyframes fadeUp{
+
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
